@@ -6,9 +6,9 @@ For more information, please refer to the [FEATURES.md](FEATURES.md) file.
 
 ## 📋 Prerequisites
 
-- **Node.js 18+**
+- **Node.js 22+**
 - **npm/yarn/pnpm**
-- **Supabase account** with project setup
+- **Supabase account** with a project set up
 - **Environment variables** (see configuration below)
 
 ## 🌊 pgflow Workflow Engine
@@ -110,6 +110,9 @@ npx supabase secrets set --env-file supabase/functions/.env
    ```
 
 6. Vercel will auto-detect Next.js - **click "Deploy"**
+
+### Step 7: Start your Next.js project locally
+`npm run dev`
 
 ### Step 8: Generate demo data
 
